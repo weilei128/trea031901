@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: accounting-system
+
+# 数据文件存储路径
+data:
+  path: ./data
+
+# 日志配置
+logging:
+  level:
+    com.accounting: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
